@@ -147,7 +147,8 @@ header .container i {
 
     .navbar-on ul {
         position: absolute;
-        top: 4vh;
+        z-index: 999;
+        top: 8vh;
         background-color: var(--color-2);
         right: 0;
         flex-direction: column;
@@ -159,7 +160,11 @@ header .container i {
 
     .navbar-on ul li a {
         color: white;
-    }    
+    }  
+    
+    .description {
+        max-width: 60%;
+    }
 }
 
 @media (max-width:410px) {
